@@ -9,11 +9,11 @@ function palindrome(str){
 
 	while(i<j){
 		if(arr[i] !== arr[j]){
-			return (str+" is not a palindrome")
+			return false;
 		}
 		i++;
 		j--;
 	}
-	return (str+" is a plaindrome");
+	return true;
 }
 module.exports = palindrome
