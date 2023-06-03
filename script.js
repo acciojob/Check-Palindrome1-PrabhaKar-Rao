@@ -11,6 +11,8 @@ function palindrome(str){
 		if(arr[i] !== arr[j]){
 			return (str+" is not a palindrome")
 		}
+		i++;
+		j--;
 	}
 	return (str+" is a plaindrome");
 }
